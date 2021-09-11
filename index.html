@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./_css/estilo.css">
+    <script src="./_js/javascript.js"></script>
+
+    <title>Cadastro</title>
+    
+</head>
+<body>
+    
+    <form action="">
+        <label>Nome</label>
+        <input type="text" id="fNom" placeholder="Insira o nome" size="" required>   
+        <label>CPF/CNPJ</label>
+        <input type="text" id="fCpf" placeholder="Insira o CPF ou CNPJ" size="" required>
+        <label>Telefone</label>
+        <input type="text" id="fFone" placeholder="Insira o número de telefone" size="" required>
+        <label>Celular</label>
+        <input type="text" id="fCel" placeholder="Insira o número de celular" size="" required>
+        <label  >Endereço</label>
+        <input type="text" id="fEnd" placeholder="Insira o Endereço" size="" required>
+        <label  >Cep
+        <input type="text" id="fCep" placeholder="Insira o CEP" size="" maxlength="9" onblur="pesquisacep(this.value);" required></label>
+        <label  >Logradouro</label>
+        <input type="text" id="fLog" placeholder="Insira o Logradouro" size="" required>
+        <label  >Número</label>
+        <input type="text" id="fNum" placeholder="Insira o número do logradouro" size="" required>
+        <label  >Complemento</label>
+        <input type="text" id="fCom" placeholder="Insira o complemento" size="" required>
+        <label  >Bairro</label>
+        <input type="text" id="fBai" placeholder="Insira o bairro" size="" required>
+        <label  >Cidade</label>
+        <input type="text" id="fCid" placeholder="Insira a cidade" size="" required>
+        <label  >Estado</label>
+        <input type="text" id="fEst" placeholder="Insira o estado" size=""required>
+        <label>IBGE</label>
+        <input type="text" id="fIbg" placeholder="Insira o estado" size=""required>
+        <button>Cadastrar</button>
+    </form>
+    
+</body>
+</html>
